@@ -1,0 +1,87 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: 'Georgia', serif;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #103154;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+form .form-field {
+  margin-bottom: 20px;
+}
+
+form .form-field label {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+ul li .review-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul li .review-author {
+  font-size: 16px;
+  color: #555;
+}
+
+ul li .review-text {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+ul li .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
